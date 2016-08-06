@@ -1,0 +1,40 @@
+Shell
+======
+	Shell is a that takes command from the keyboard and gives them to operating system to perform. 
+
+Terminal
+=========
+
+	Terminal is a tool, which you can use to pass ur shell command. Lets u interact with shell.
+
+
+File System
+============
+
+	Files in linux is arranged in a hierarchical directory structure which means they are organized in a tree like pattern of directories.
+
+	 Most basic directory in linux is root directory and under this directories and files all residing in.
+
+
+1. pwd - Present working directory.
+2. cd - change directory
+3. ls - list all the file and directory
+	
+
+	ls [option] [file or directory name]
+
+		example:
+		ls Documents/ 	-- will list all the files in Documents
+		ls /	      	-- will list all the files in home
+
+		ls ~	      	-- will list all the files in home
+	
+	 	ls ..	      	-- will take one step backward
+		ls ../..
+		ls -l	      	-- will list ur file in long format
+		ls -a 	      	-- will give u hidden files
+		ls -al	      	-- will give u hidden files in long format
+		ls -lS	      	-- will give u sorted list with biggest size
+		ls *.pub      	-- will give u files based on extensi 
+		ls -lS  > output -- will give u output in a file
+		ls -d */	-- list out only the directories
